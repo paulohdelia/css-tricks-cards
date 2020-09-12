@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #17141d;
+  color: white;
+}
+
+.card-list {
+  display: flex;
+  padding: 3rem;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+}
