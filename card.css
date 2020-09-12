@@ -1,8 +1,13 @@
+:root {
+  --color-dark: #17141d;
+}
+
 body {
   padding: 0;
   margin: 0;
-  background-color: #17141d;
+  background-color: var(--color-dark);
   color: white;
+  font-family: "DM Mono", monospace;
 }
 
 .card-list {
@@ -18,4 +23,7 @@ body {
   width: 400px;
   min-width: 250px;
   padding: 1.5rem;
+
+  border-radius: 16px;
+  box-shadow: -1rem 0 3rem black;
 }
